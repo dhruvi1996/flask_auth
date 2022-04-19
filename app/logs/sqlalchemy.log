@@ -1,0 +1,50 @@
+2022-04-19 01:46:46,483 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 01:46:46,484 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-04-19 01:46:46,485 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-04-19 01:46:46,489 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-04-19 01:46:46,490 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-04-19 01:46:46,492 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-04-19 01:46:46,493 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-04-19 01:46:46,494 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-04-19 01:46:46,495 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-04-19 01:46:46,497 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-04-19 01:46:46,498 [INFO] sqlalchemy.engine.Engine: [no key 0.00109s] ()
+2022-04-19 01:46:46,517 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-04-19 01:46:46,518 [INFO] sqlalchemy.engine.Engine: [no key 0.00111s] ()
+2022-04-19 01:46:46,539 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-04-19 01:48:37,061 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 01:48:37,063 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-04-19 01:48:37,064 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-04-19 01:48:37,070 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-04-19 01:48:37,071 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-04-19 01:48:37,075 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-04-19 02:09:55,884 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 02:09:55,886 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-04-19 02:09:55,888 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-04-19 02:09:55,892 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-04-19 02:09:55,893 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-04-19 02:09:55,897 [INFO] sqlalchemy.engine.Engine: COMMIT
