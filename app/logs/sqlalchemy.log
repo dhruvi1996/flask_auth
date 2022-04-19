@@ -62,3 +62,107 @@ WHERE users.email = ?
  LIMIT ? OFFSET ?
 2022-04-19 16:38:36,836 [INFO] sqlalchemy.engine.Engine: [cached since 11.2s ago] ('ddm8@njit.edu', 1, 0)
 2022-04-19 16:38:36,859 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-04-19 19:45:29,754 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:45:29,759 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-04-19 19:45:29,764 [INFO] sqlalchemy.engine.Engine: [generated in 0.00437s] ('dhruvisitapara.96.ds@gmail.com', 1, 0)
+2022-04-19 19:45:29,824 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (email, password, about, authenticated, registered_on) VALUES (?, ?, ?, ?, ?)
+2022-04-19 19:45:29,826 [INFO] sqlalchemy.engine.Engine: [generated in 0.00188s] ('dhruvisitapara.96.ds@gmail.com', 'pbkdf2:sha256:260000$7MB4pSykhNl6W0qX$1f2206cd040bcac673f5ad5b5ad5a3482c4ab4b058f5a9a3e70f29b43c289c13', None, 0, '2022-04-19 19:45:29.823911')
+2022-04-19 19:45:29,848 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-04-19 19:45:29,861 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:45:29,863 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-04-19 19:45:29,865 [INFO] sqlalchemy.engine.Engine: [generated in 0.00125s] (1,)
+2022-04-19 19:45:29,870 [INFO] sqlalchemy.engine.Engine: UPDATE users SET is_admin=? WHERE users.id = ?
+2022-04-19 19:45:29,872 [INFO] sqlalchemy.engine.Engine: [generated in 0.00126s] (1, 1)
+2022-04-19 19:45:29,882 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-04-19 19:45:40,088 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:45:40,091 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-04-19 19:45:40,094 [INFO] sqlalchemy.engine.Engine: [cached since 10.34s ago] ('dhruvisitapara.96.ds@gmail.com', 1, 0)
+2022-04-19 19:45:40,158 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-04-19 19:45:40,161 [INFO] sqlalchemy.engine.Engine: [generated in 0.00239s] (1, 1)
+2022-04-19 19:45:40,176 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-04-19 19:45:40,189 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:45:40,191 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-04-19 19:45:40,192 [INFO] sqlalchemy.engine.Engine: [cached since 10.33s ago] (1,)
+2022-04-19 19:45:40,204 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-04-19 19:45:40,223 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:45:40,225 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-04-19 19:45:40,226 [INFO] sqlalchemy.engine.Engine: [generated in 0.00144s] (1,)
+2022-04-19 19:45:40,244 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-04-19 19:47:34,278 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:47:34,282 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-04-19 19:47:34,284 [INFO] sqlalchemy.engine.Engine: [cached since 114.1s ago] (1,)
+2022-04-19 19:47:34,291 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-04-19 19:47:34,293 [INFO] sqlalchemy.engine.Engine: [cached since 114.1s ago] (0, 1)
+2022-04-19 19:47:34,304 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-04-19 19:48:29,274 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:48:29,281 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-04-19 19:48:29,285 [INFO] sqlalchemy.engine.Engine: [cached since 179.5s ago] ('dhruvipatel.96.dp@gmail.com', 1, 0)
+2022-04-19 19:48:29,343 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (email, password, about, authenticated, registered_on) VALUES (?, ?, ?, ?, ?)
+2022-04-19 19:48:29,346 [INFO] sqlalchemy.engine.Engine: [cached since 179.5s ago] ('dhruvipatel.96.dp@gmail.com', 'pbkdf2:sha256:260000$J7QWRQqG9F3A2Eyy$8177ed81c15ed2e0053b08d15947444f3c8b27d63a3ea064e83b2cac760293ed', None, 0, '2022-04-19 19:48:29.343334')
+2022-04-19 19:48:29,368 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-04-19 19:48:29,381 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:48:29,383 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-04-19 19:48:29,384 [INFO] sqlalchemy.engine.Engine: [cached since 179.5s ago] (2,)
+2022-04-19 19:48:29,396 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-04-19 19:48:41,539 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:48:41,549 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-04-19 19:48:41,553 [INFO] sqlalchemy.engine.Engine: [cached since 191.8s ago] ('dhruvipatel.96.dp@gmail.com', 1, 0)
+2022-04-19 19:48:41,613 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-04-19 19:48:41,615 [INFO] sqlalchemy.engine.Engine: [cached since 181.5s ago] (1, 2)
+2022-04-19 19:48:41,630 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-04-19 19:48:41,648 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:48:41,650 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-04-19 19:48:41,651 [INFO] sqlalchemy.engine.Engine: [cached since 191.8s ago] (2,)
+2022-04-19 19:48:41,662 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-04-19 19:48:41,677 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:48:41,679 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-04-19 19:48:41,680 [INFO] sqlalchemy.engine.Engine: [cached since 181.5s ago] (2,)
+2022-04-19 19:48:41,692 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-04-19 19:49:27,672 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:49:27,677 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-04-19 19:49:27,683 [INFO] sqlalchemy.engine.Engine: [cached since 227.5s ago] (2,)
+2022-04-19 19:49:27,694 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-04-19 19:49:27,696 [INFO] sqlalchemy.engine.Engine: [cached since 227.5s ago] (0, 2)
+2022-04-19 19:49:27,711 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-04-19 19:49:32,445 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:49:32,449 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-04-19 19:49:32,453 [INFO] sqlalchemy.engine.Engine: [cached since 242.7s ago] ('ddm8@njit.edu', 1, 0)
+2022-04-19 19:49:32,476 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-04-19 19:49:36,657 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-04-19 19:49:36,661 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-04-19 19:49:36,666 [INFO] sqlalchemy.engine.Engine: [cached since 246.9s ago] ('dhruvipatel.96.dp@gmail.com', 1, 0)
+2022-04-19 19:49:36,785 [INFO] sqlalchemy.engine.Engine: ROLLBACK
