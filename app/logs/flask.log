@@ -135,3 +135,13 @@
 2022-04-19 14:40:05,975 [INFO] app: After Request
 2022-04-19 14:40:07,868 [INFO] app: Before Request
 2022-04-19 14:40:07,883 [INFO] app: After Request
+2022-04-19 15:38:59,442 [DEBUG] mydebugs: Debug Logger
+2022-04-19 15:38:59,444 [INFO] mydebugs: My App Logger
+2022-04-19 15:38:59,445 [INFO] myrequests: Request Logger
+2022-04-19 15:38:59,447 [DEBUG] myrequests: Debug Logger
+2022-04-19 15:38:59,449 [INFO] dianasApp: Request Logger
+2022-04-19 15:38:59,451 [DEBUG] dianasApp: Debug Logger
+2022-04-19 15:38:59,457 [INFO] app: Before Request
+2022-04-19 15:38:59,460 [DEBUG] mydebugs: Debug Logger
+2022-04-19 15:38:59,461 [INFO] myrequests: Request Logger
+2022-04-19 15:38:59,552 [INFO] app: After Request
