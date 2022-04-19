@@ -19,7 +19,6 @@ def before_request_logging():
     log = logging.getLogger("myrequests")
     log.info("Request Logger")
 
-
 @log_con.after_app_request
 def after_request_logging(response):
     if request.path == '/favicon.ico':
@@ -32,6 +31,10 @@ def after_request_logging(response):
 
     log = logging.getLogger("myApp")
     log.info("My App Logger")
+    log = logging.getLogger("mydebugs")
+    log.debug("Debug Logger")
+    log = logging.getLogger("myrequests")
+    log.info("Request Logger")
     return response
 
 
@@ -40,8 +43,9 @@ def configure_logging():
     logging.config.dictConfig(LOGGING_CONFIG)
     log = logging.getLogger("myApp")
     log.info("My App Logger")
+    log.debug("Debug Logger")
     log = logging.getLogger("myerrors")
-    log.info("This has broke")
+    log.info("This has broken")
     log.debug("Debug Logger")
     log.warning('warning')
     log = logging.getLogger("mydebugs")
@@ -50,11 +54,12 @@ def configure_logging():
     log = logging.getLogger("myrequests")
     log.info("Request Logger")
     log.debug("Debug Logger")
-    log = logging.getLogger("dianasApp")
+    log = logging.getLogger("dhruvisApp")
     log.info("Request Logger")
     log.debug("Debug Logger")
     log.warning("WARNING")
     log.critical("CRITICAL")
+
 
 
 LOGGING_CONFIG = {
@@ -119,6 +124,20 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
+            'file.handler.debug': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': 'app/logs/debug.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
+        'file.handler.dhruvisApp': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'RequestFormatter',
+            'filename': 'app/logs/dhruvisApp.log',
+            'maxBytes': 10000000,
+            'backupCount': 5,
+        },
     },
     'loggers': {
         '': {  # root logger
@@ -151,6 +170,20 @@ LOGGING_CONFIG = {
             'level': 'DEBUG',
             'propagate': False
         },
-
-    }
+        'mydebugs': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.debug'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'myrequests': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.request'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+        'dhruvisApp': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.dhruvisApp'],
+            'level': 'DEBUG',
+            'propagate': False
+        },
+    },
 }
