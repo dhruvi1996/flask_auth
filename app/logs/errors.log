@@ -33,3 +33,6 @@
 2022-04-19 15:38:59,438 [INFO] myerrors: This has broke
 2022-04-19 15:38:59,439 [DEBUG] myerrors: Debug Logger
 2022-04-19 15:38:59,441 [WARNING] myerrors: warning
+2022-04-19 16:38:00,211 [INFO] myerrors: This has broken
+2022-04-19 16:38:00,213 [DEBUG] myerrors: Debug Logger
+2022-04-19 16:38:00,215 [WARNING] myerrors: warning

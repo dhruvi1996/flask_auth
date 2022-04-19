@@ -1,0 +1,4 @@
+[2022-04-19 16:38:00,222] [92] 172.24.0.1 requested http://localhost/loginINFO in __init__: Request Logger
+[2022-04-19 16:38:00,223] [92] 172.24.0.1 requested http://localhost/loginDEBUG in __init__: Debug Logger
+[2022-04-19 16:38:00,224] [92] 172.24.0.1 requested http://localhost/loginWARNING in __init__: WARNING
+[2022-04-19 16:38:00,226] [92] 172.24.0.1 requested http://localhost/loginCRITICAL in __init__: CRITICAL

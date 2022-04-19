@@ -34,3 +34,13 @@
 2022-04-19 15:08:15,793 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
 2022-04-19 15:38:59,558 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 15:38:59] "GET /welcome HTTP/1.1" 200 -
 2022-04-19 15:54:40,028 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-19 16:38:00,310 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:00] "GET /login HTTP/1.1" 200 -
+2022-04-19 16:38:02,823 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:02] "GET /register HTTP/1.1" 200 -
+2022-04-19 16:38:04,933 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:04] "GET / HTTP/1.1" 200 -
+2022-04-19 16:38:05,633 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:05] "GET /about HTTP/1.1" 200 -
+2022-04-19 16:38:06,667 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:06] "GET /welcome HTTP/1.1" 200 -
+2022-04-19 16:38:17,956 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:17] "GET /login HTTP/1.1" 200 -
+2022-04-19 16:38:25,650 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-19 16:38:25,672 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:25] "GET /login HTTP/1.1" 200 -
+2022-04-19 16:38:36,861 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-19 16:38:36,883 [INFO] werkzeug: 172.24.0.1 - - [19/Apr/2022 16:38:36] "GET /login HTTP/1.1" 200 -
