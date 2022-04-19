@@ -14,6 +14,10 @@ def before_request_logging():
     current_app.logger.info("Before Request")
     log = logging.getLogger("myApp")
     log.info("My App Logger")
+    log = logging.getLogger("mydebugs")
+    log.debug("Debug Logger")
+    log = logging.getLogger("myrequests")
+    log.info("Request Logger")
 
 
 @log_con.after_app_request
@@ -37,9 +41,20 @@ def configure_logging():
     log = logging.getLogger("myApp")
     log.info("My App Logger")
     log = logging.getLogger("myerrors")
-    log.info("THis broke")
-
-
+    log.info("This has broke")
+    log.debug("Debug Logger")
+    log.warning('warning')
+    log = logging.getLogger("mydebugs")
+    log.debug("Debug Logger")
+    log.info("My App Logger")
+    log = logging.getLogger("myrequests")
+    log.info("Request Logger")
+    log.debug("Debug Logger")
+    log = logging.getLogger("dianasApp")
+    log.info("Request Logger")
+    log.debug("Debug Logger")
+    log.warning("WARNING")
+    log.critical("CRITICAL")
 
 
 LOGGING_CONFIG = {
