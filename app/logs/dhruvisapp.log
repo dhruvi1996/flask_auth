@@ -47,3 +47,15 @@
 [2022-04-29 19:36:19,762] [87] 127.0.0.1 requested http://localhost/page5DEBUG in __init__: Debug Logger
 [2022-04-29 19:36:19,764] [87] 127.0.0.1 requested http://localhost/page5WARNING in __init__: WARNING
 [2022-04-29 19:36:19,765] [87] 127.0.0.1 requested http://localhost/page5CRITICAL in __init__: CRITICAL
+[2022-04-29 21:41:01,530] [8] 172.24.0.1 requested http://localhost/INFO in __init__: Request Logger
+[2022-04-29 21:41:01,531] [8] 172.24.0.1 requested http://localhost/DEBUG in __init__: Debug Logger
+[2022-04-29 21:41:01,532] [8] 172.24.0.1 requested http://localhost/WARNING in __init__: WARNING
+[2022-04-29 21:41:01,533] [8] 172.24.0.1 requested http://localhost/CRITICAL in __init__: CRITICAL
+[2022-04-29 22:08:54,863] [111] 172.24.0.1 requested http://localhost/INFO in __init__: Request Logger
+[2022-04-29 22:08:54,865] [111] 172.24.0.1 requested http://localhost/DEBUG in __init__: Debug Logger
+[2022-04-29 22:08:54,867] [111] 172.24.0.1 requested http://localhost/WARNING in __init__: WARNING
+[2022-04-29 22:08:54,870] [111] 172.24.0.1 requested http://localhost/CRITICAL in __init__: CRITICAL
+[2022-04-29 22:18:24,931] [121] 172.24.0.1 requested http://localhost/INFO in __init__: Request Logger
+[2022-04-29 22:18:24,933] [121] 172.24.0.1 requested http://localhost/DEBUG in __init__: Debug Logger
+[2022-04-29 22:18:24,937] [121] 172.24.0.1 requested http://localhost/WARNING in __init__: WARNING
+[2022-04-29 22:18:24,942] [121] 172.24.0.1 requested http://localhost/CRITICAL in __init__: CRITICAL
