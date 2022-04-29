@@ -72,3 +72,99 @@
 2022-04-29 19:36:19,754 [INFO] myerrors: This has broken
 2022-04-29 19:36:19,754 [DEBUG] myerrors: Debug Logger
 2022-04-29 19:36:19,755 [WARNING] myerrors: warning
+2022-04-29 21:41:01,519 [INFO] myerrors: This has broken
+2022-04-29 21:41:01,520 [DEBUG] myerrors: Debug Logger
+2022-04-29 21:41:01,522 [WARNING] myerrors: warning
+2022-04-29 22:08:54,851 [INFO] myerrors: This has broken
+2022-04-29 22:08:54,852 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:08:54,854 [WARNING] myerrors: warning
+2022-04-29 22:18:24,903 [INFO] myerrors: This has broken
+2022-04-29 22:18:24,905 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:18:24,909 [WARNING] myerrors: warning
+2022-04-29 22:24:04,334 [INFO] myerrors: This has broken
+2022-04-29 22:24:04,338 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:24:04,344 [WARNING] myerrors: warning
+2022-04-29 22:30:32,034 [INFO] myerrors: This has broken
+2022-04-29 22:30:32,035 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:32,036 [WARNING] myerrors: warning
+2022-04-29 22:30:32,151 [INFO] myerrors: This has broken
+2022-04-29 22:30:32,152 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:32,153 [WARNING] myerrors: warning
+2022-04-29 22:30:32,373 [INFO] myerrors: This has broken
+2022-04-29 22:30:32,373 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:32,375 [WARNING] myerrors: warning
+2022-04-29 22:30:32,477 [INFO] myerrors: This has broken
+2022-04-29 22:30:32,477 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:32,479 [WARNING] myerrors: warning
+2022-04-29 22:30:32,577 [INFO] myerrors: This has broken
+2022-04-29 22:30:32,577 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:32,579 [WARNING] myerrors: warning
+2022-04-29 22:30:32,678 [INFO] myerrors: This has broken
+2022-04-29 22:30:32,679 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:32,680 [WARNING] myerrors: warning
+2022-04-29 22:30:32,778 [INFO] myerrors: This has broken
+2022-04-29 22:30:32,779 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:32,781 [WARNING] myerrors: warning
+2022-04-29 22:30:32,890 [INFO] myerrors: This has broken
+2022-04-29 22:30:32,891 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:32,892 [WARNING] myerrors: warning
+2022-04-29 22:30:32,997 [INFO] myerrors: This has broken
+2022-04-29 22:30:32,997 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:32,999 [WARNING] myerrors: warning
+2022-04-29 22:30:57,879 [INFO] myerrors: This has broken
+2022-04-29 22:30:57,880 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:57,882 [WARNING] myerrors: warning
+2022-04-29 22:30:57,986 [INFO] myerrors: This has broken
+2022-04-29 22:30:57,986 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:57,987 [WARNING] myerrors: warning
+2022-04-29 22:30:58,194 [INFO] myerrors: This has broken
+2022-04-29 22:30:58,194 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:58,196 [WARNING] myerrors: warning
+2022-04-29 22:30:58,298 [INFO] myerrors: This has broken
+2022-04-29 22:30:58,299 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:58,301 [WARNING] myerrors: warning
+2022-04-29 22:30:58,401 [INFO] myerrors: This has broken
+2022-04-29 22:30:58,402 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:58,404 [WARNING] myerrors: warning
+2022-04-29 22:30:58,502 [INFO] myerrors: This has broken
+2022-04-29 22:30:58,503 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:58,504 [WARNING] myerrors: warning
+2022-04-29 22:30:58,609 [INFO] myerrors: This has broken
+2022-04-29 22:30:58,610 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:58,610 [WARNING] myerrors: warning
+2022-04-29 22:30:58,709 [INFO] myerrors: This has broken
+2022-04-29 22:30:58,709 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:58,710 [WARNING] myerrors: warning
+2022-04-29 22:30:58,813 [INFO] myerrors: This has broken
+2022-04-29 22:30:58,814 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:30:58,815 [WARNING] myerrors: warning
+2022-04-29 22:32:37,967 [INFO] myerrors: This has broken
+2022-04-29 22:32:37,968 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:32:37,969 [WARNING] myerrors: warning
+2022-04-29 22:32:38,082 [INFO] myerrors: This has broken
+2022-04-29 22:32:38,083 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:32:38,084 [WARNING] myerrors: warning
+2022-04-29 22:32:38,306 [INFO] myerrors: This has broken
+2022-04-29 22:32:38,307 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:32:38,309 [WARNING] myerrors: warning
+2022-04-29 22:32:38,406 [INFO] myerrors: This has broken
+2022-04-29 22:32:38,407 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:32:38,410 [WARNING] myerrors: warning
+2022-04-29 22:32:38,526 [INFO] myerrors: This has broken
+2022-04-29 22:32:38,527 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:32:38,529 [WARNING] myerrors: warning
+2022-04-29 22:32:38,644 [INFO] myerrors: This has broken
+2022-04-29 22:32:38,645 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:32:38,648 [WARNING] myerrors: warning
+2022-04-29 22:32:38,746 [INFO] myerrors: This has broken
+2022-04-29 22:32:38,747 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:32:38,748 [WARNING] myerrors: warning
+2022-04-29 22:32:38,844 [INFO] myerrors: This has broken
+2022-04-29 22:32:38,844 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:32:38,845 [WARNING] myerrors: warning
+2022-04-29 22:32:38,956 [INFO] myerrors: This has broken
+2022-04-29 22:32:38,956 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:32:38,957 [WARNING] myerrors: warning
+2022-04-29 22:33:39,298 [INFO] myerrors: This has broken
+2022-04-29 22:33:39,301 [DEBUG] myerrors: Debug Logger
+2022-04-29 22:33:39,305 [WARNING] myerrors: warning
