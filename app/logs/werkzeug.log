@@ -351,3 +351,37 @@
 2022-04-29 22:18:31,575 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:18:31] "GET / HTTP/1.1" 200 -
 2022-04-29 22:18:31,601 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:18:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2022-04-29 22:21:42,039 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/config_test.py', reloading
+2022-04-29 22:24:04,783 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:24:04] "GET / HTTP/1.1" 200 -
+2022-04-29 22:24:04,868 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:24:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:25:21,723 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/conftest.py', reloading
+2022-04-29 22:33:39,446 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:39] "GET / HTTP/1.1" 200 -
+2022-04-29 22:33:39,495 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:40,237 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:40] "GET / HTTP/1.1" 200 -
+2022-04-29 22:33:40,259 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:40,438 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:40] "GET / HTTP/1.1" 200 -
+2022-04-29 22:33:40,474 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:40,604 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:40] "GET / HTTP/1.1" 200 -
+2022-04-29 22:33:40,622 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:40,767 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:40] "GET / HTTP/1.1" 200 -
+2022-04-29 22:33:40,795 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:40,972 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:40] "GET / HTTP/1.1" 200 -
+2022-04-29 22:33:41,006 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:41,190 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:41] "GET / HTTP/1.1" 200 -
+2022-04-29 22:33:41,210 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:41,388 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:41] "GET / HTTP/1.1" 200 -
+2022-04-29 22:33:41,409 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:41,751 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:41] "GET / HTTP/1.1" 200 -
+2022-04-29 22:33:41,768 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:48,963 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-29 22:33:49,020 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:49] "GET /dashboard HTTP/1.1" 200 -
+2022-04-29 22:33:49,058 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:56,442 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:56] "GET /profile HTTP/1.1" 200 -
+2022-04-29 22:33:56,465 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:33:59,287 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:59] "GET /account HTTP/1.1" 200 -
+2022-04-29 22:33:59,308 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:33:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:34:02,717 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:34:02] "GET /about HTTP/1.1" 200 -
+2022-04-29 22:34:02,736 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:34:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:34:03,379 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:34:03] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 22:34:03,408 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:34:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-29 22:34:04,304 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:34:04] "GET /dashboard HTTP/1.1" 200 -
+2022-04-29 22:34:04,332 [INFO] werkzeug: 172.24.0.1 - - [29/Apr/2022 22:34:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
