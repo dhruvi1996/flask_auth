@@ -1,3 +1,14 @@
+
 body {
-font-size: 200%;
+font-size: 100%;
+background-image: linear-gradient(150deg, pink, darkpink);
 }
+
+.navbar{
+    background-image: linear-gradient(150deg, lightpink, lightcoral); !important;
+}
+.navbar .navbar-nav > li > a {
+    color: blue !important;
+}
+.navbar .navbar-nav > li > a:hover {
+    color: lawngreen !important;
